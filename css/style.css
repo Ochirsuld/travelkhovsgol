@@ -168,7 +168,6 @@ article {
     background-color: #000;
     padding: 80px 120px;
     display: flex;
-    /* gap: 0 543px; */
     justify-content: space-between;
 }
 
@@ -188,5 +187,14 @@ article {
 }
 .icons {
     display: flex;
+}
 
+.facebook{
+    padding-right: 20px;
+    display: flex;
+}
+
+.instagram{
+    padding-left: 20px;
+    display: flex;
 }
