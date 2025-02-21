@@ -10,6 +10,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    text-decoration: none;
 }
 
 body {
@@ -132,4 +133,60 @@ article {
 
 .pack ul{
     margin-left: 20px;
+}
+
+.order{
+    background-color: #000;
+    padding: 40px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    border-bottom: 2px green solid;
+}
+
+.order h1{
+    color: #f5f5f5;
+    size: 32px;
+    line-height: 39.01px;
+}
+
+.order button{
+    border-radius: 13px;
+    min-height: 44px;
+    width: 130px;
+    height: 44px;
+    background-color: #18BA51;
+}
+
+.order button a{
+    color: #f5f5f5; 
+    size: 16px;
+}
+
+.social{
+    background-color: #000;
+    padding: 80px 120px;
+    display: flex;
+    /* gap: 0 543px; */
+    justify-content: space-between;
+}
+
+.social img{
+    width: 167px;
+    height: 44px;
+}
+
+.icons a{
+    width: 167px;
+    height: 44px;
+    min-height: 44px;
+    border-radius: 40px;
+    right: 20px;
+    left: 20px;
+    gap: 10px;
+}
+.icons {
+    display: flex;
+
 }
